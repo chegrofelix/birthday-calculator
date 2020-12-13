@@ -10,6 +10,7 @@
     Profession - Student
 ## Setup instructions
     To use my application, the user needs to access my website url.The user then enters thier date of birth and clicks the 'check' button to validate the input date and for calculation of their day of birth for the Akan name output.
+    Check the website here https://chegrofelix.github.io/birthday-calculator/
 ## Technologies 
    -Html
    -CSS
