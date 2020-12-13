@@ -1,0 +1,26 @@
+body{
+    color: blue;
+    background-color: #fff5c0;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer > h2 {
+    font-family: 'Courier New', Courier, monospace, 'ribeye';
+    font-size: 50px;
+    color: #fc8621;
+    padding: 40px;
+}
+ul{
+    line-height: 50px;
+}
+.header {
+    background-color: #532e1c;
+    color: #fc8621;
+    padding: 40px;
+}
+.header > h1 {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birthday calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <script src="./js/script.js"></script>
 </head>
 <body>
-    <div class="container">
-    <h1>Birthday calculator</h1>
-    <script src="./js/script.js"></script>
+    <div class="fluid-container">
+        <div class="header">
+        <h1>Birthday calculator</h1>
+       
     <p>Welcome to my birthday calculator where you enter your birth date to check for your <strong>Akan name</strong>.</p>
+       </div>
     <form>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
@@ -18,13 +22,20 @@
         <label for="female">Female</label>
     </form>
     <form>
-        <label for="date">Date :</label>
-        <input type="date" id="date" name="date">
-        <input type="button" value="submit">
+        <input type="text" placeholder="dd" id="Date">
+        <input type="text" placeholder="mm" id="Month">
+        <input type="text" placeholder="yyyy" id="Year">
+        <button>check</button>
     </form>
+     <img src="./images/Screen-Shot.png" alt="A photo">
     <div class="footer">
-       <h2>Conctacts</h2>
+      <h2>Conctacts</h2>
+        <ul>
+            <li>Phone: +254741906738</li>
+            <li>Email: chegerofelix@gmail.com</li>
+            <li>Twitter: @felix_chegero</li>
+        </ul>
     </div>
-</div>
+  </div>
 </body>
 </html>
